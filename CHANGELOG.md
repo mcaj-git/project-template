@@ -7,6 +7,30 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ---
 
+## [**1.11.7**] - 2021-12-05
+
+### Added
+
+* In the main script, removing the bin/ folder, the LICENSE file and the script itself will not prompt errors if there are any problems
+
+## [**1.11.6**] - 2021-12-04
+
+### Added
+
+* Two 'README.md' files at the bin/ and tests/ folder to help describe what the folder purpose is.
+
+## [**1.11.5**] - 2021-11-19
+
+### Fixed
+
+* Some typos in multiple files.
+
+## [**1.11.4**] - 2021-11-01
+
+### Fixed
+
+* Multiple spelling mistakes in the README and CHANGELOG files.
+
 ## [**1.11.3**] - 2021-08-03
 
 ### Added
@@ -17,7 +41,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Added
 
-* Gitignored multiple common folder and files.
+* Git ignored multiple common folder and files.
 
 ## [**1.11.1**] - 2021-07-25
 
@@ -42,14 +66,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ### Added
 
 * More error information when the tests fail.
-* The new logos in the generated readme for the user to change them with their own one.
+* The new logos in the generated README for the user to change them with their own one.
 * More documentation in the project's readme.md
 * Informational error in the script when an unknown argument is encountered.
 
 ### Removed
 
 * Two useless FUNCTION_HELPERS's functions displaying errors.
-* Useless chmod declaration in the TESTS_RUNNER script
+* Useless 'chmod' declaration in the TESTS_RUNNER script
 * The exit conditions of the TESTS_RUNNER script in the same if statement.
 
 ## [**1.10.3**] - 2021-07-19
@@ -59,18 +83,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 * A new logo in the readme.md
 * The brand logo in the sponsors part.
 * Alt attribute for all the README's images
-* More guidance for the used github bots
+* More guidance for the used GitHub bots
 
 ### Fixed
 
-* Some README's alt attribute.
+* Some README's 'alt' attribute.
 * Some README's broken links
 
 ## [**1.10.2**] - 2021-07-17
 
 ### Added
 
-* A Github actions workflow to check the tests.
+* A GitHub actions workflow to check the tests.
 * Execute permissions for the SETUP_TEMPLATE.sh script
 
 ### Fixed
@@ -101,7 +125,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ### Fixed
 
 * Some typos
-* The readme's link to the issues
+* The README's link to the issues
 
 ### Changed
 
@@ -189,7 +213,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ### Added
 
 * `.env` file will be ignored in the `.gitignore`.
-* Disabled some markdown link rules in the generated README.md
+* Disabled some Markdown link rules in the generated README.md
 * Fixed some minor errors in the README.md file
 
 ## [**1.7.0**] - 2021-06-01
@@ -226,7 +250,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Fixed
 
-* Readme "What does it include" fixed list of files.
+* README "What does it include" fixed list of files.
 * Sponsor link in the generated README.md file.
 * Some typos
 
@@ -241,14 +265,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Added
 
-* Support for Github todo app.
+* Support for GitHub to-do app.
 
 ## [**1.4.2**] - 2021-04-20
 
 ### Added
 
 * An extra informational message in the script.
-* Welcome bot and its config (.github/config.yml)
+* Welcome bot and its config (.GitHub/config.yml)
 
 ### Fixed
 
@@ -268,26 +292,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Added
 
-* Readme file with the section with the recommended/used bots that the users should install.
+* README file with the section with the recommended/used bots that the users should install.
 * Some informational comments in the script referencing the project's documentation.
-* A total of 18 new labels will be created right when you clone your repo using Github Probot settings.
+* A total of 18 new labels will be created right when you clone your repo using GitHub 'Probot' settings.
 
 ## [**1.3.0**] - 2021-04-14
 
 ### Added
 
-* CODEOWNERS file inside the .github folder.
+* CODEOWNERS file inside the '.GitHub/' folder.
 
 ### Fixed
 
-* Some README.md markdown link bugs.
+* Some README.md Markdown link bugs.
 
 ## [**1.2.0**] - 2021-04-07
 
 ### Added
 
 * Bug report issue templates have the preceding "[BUG]" title.
-* Multiple readme template headings (About the project, project tree, screenshots, donators).
+* Multiple README template headings (About the project, project tree, screenshots, donators).
 * Improved README.md template by fixing some minor problems.
 
 ## [**1.1.1**] - 2021-04-02
@@ -306,7 +330,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 * Gitignore file ignores all \*.ignore.\* files.
 * Basic README.md template.
-* bin/FUNCTION_HELPERS script to improve the readability of the SETUP_TEMPLATE.sh file.
+* A bin/FUNCTION_HELPERS script to improve the readability of the SETUP_TEMPLATE.sh file.
 
 ### Changed
 
@@ -378,7 +402,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Added
 
-* Markdownlint disable the rule in the CHANGELOG.md file"
+* MarkdownLint disable the rule in the "CHANGELOG.md" file.
 
 ## [**1.0.3**] - 2021-02-23
 
@@ -388,7 +412,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Added
 
-* Shell script now checks if the .github directory exists.
+* Shell script now checks if the '.github' directory exists.
 
 ## [**1.0.2**] - 2020-09-08
 
@@ -409,11 +433,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Changed
 
-* The location of the pull request template to the .github/ folder.
+* The location of the pull request template to the '.GitHub/' folder.
 
 ## [**1.0.0**] - 2020-09-08
 
 ### Added
 
 * Added a CHANGELOG.md.
-* Support for the CHANGELOG in the SETUP_TEMPLATE.sh file (when run, it will remove all of the content and create a new file from scratch).
+* Support for the CHANGELOG in the SETUP_TEMPLATE.sh file (when run, it will remove all the content and create a new file from scratch).
